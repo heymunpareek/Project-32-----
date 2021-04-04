@@ -100,7 +100,7 @@ async function getBackgroundImg(){
 async function displayTime()
  {
     // write code to fetch time from API
-    link = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata")
+    link = await fetch("https://worldtimeapi.org/api/timezone/Asia/Kolkata")
     //change the data in JSON format
     linkJson = await link.json();
 
